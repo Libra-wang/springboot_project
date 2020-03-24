@@ -1,0 +1,1047 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    height: 56px;
+    background-color: #fff;
+    border-bottom: 1px solid #e8e8e8;
+}
+.nav{
+    width: 75%;
+    height: 100%;
+    border: 0 none;
+    margin: 0 auto;
+    position: relative;
+}
+.nav a{
+    text-decoration: none;
+    color: #333;
+    font: 14px "Microsoft YaHei";
+}
+.nav a img{
+    margin-top: 8px;
+    border: 0 none;
+    width: 90px;
+    height: 40px;
+    line-height: 56px;
+}
+.nav>img{
+    margin: 20px 0 10px 10px;
+    width: 162px;
+    height: 17px;
+}
+.nav p{
+    display: inline-block;
+    float: right;
+    width: 340px;
+}
+.nav p a{
+    display: inline-block;
+    width: 80px;
+    height: 56px;
+    text-align: right;
+    line-height: 56px;
+}
+.nav p a:first-child{
+    margin-right: 30px;
+}
+.nav p a:nth-child(2){
+    margin-right: 30px;
+}
+
+.main{
+    width: 75%;
+    /*height: 1800px;*/
+    border: 0 none;
+    margin: 15px auto;
+    position: relative;
+    /*background-color: #bce8f1;*/
+}
+.left-nav{
+
+    float: left;
+    width: 210px;
+    height: 707px;
+    border-top: 2px solid #ff6000;
+    background-color: #fff;
+
+}
+.fixed{
+    width: 210px;
+    height: 777px;
+    border-top: 2px solid #ff6000;
+
+    background-color: #fff;
+    position:fixed;
+    top:0;
+}
+.left-nav-top{
+    width: 100%;
+    height: 209px;
+    border-left: 1px solid #e4eaee;
+    border-right: 1px solid #e4eaee;
+    border-bottom: 1px solid #e4eaee;
+
+}
+.left-nav-top:hover{
+    border: 1px solid #ff6000;
+}
+.resume-name {
+    display: block;
+    margin: 0;
+    width: 178px;
+    height: 30px;
+    padding: 20px 15px 10px 15px;
+    position: relative;
+}
+
+.resume-name p{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+}
+.updatename{
+    display: none;
+    /*display: inline-block ;*/
+    position: relative;
+    top: -28px;
+    left: 158px;
+    width: 20px;
+    height: 20px;
+    background: url("../images/modifieddata.png") no-repeat;
+}
+.updatename:hover{
+    cursor: pointer;
+    background: url("../images/modifieddata(1).png") no-repeat;
+}
+.updatename-ipt{
+    height: 30px;
+    display: none;
+}
+
+
+
+.cupbox{
+    width: 178px;
+    height: 88px;
+    margin: 0 15px 15px;
+}
+.starlevel{
+    display: block;
+    height: 20px;
+    width: 100px;
+    background: url("../images/rating.png");
+}
+.btn-flush{
+    width: 82px;
+    height: 30px;
+    margin: 0 7px 0 10px;
+    font-size: 14px;
+    background-color: #ff6000;
+    color: #fff;
+    border: none;
+}
+.btn-preview{
+    width: 82px;
+    height: 30px;
+    margin: 0 10px 0 7px;
+    font-size: 14px;
+    border: 1px solid #ff6000;
+    color: #ff6000;
+    background-color: #fff2e3;
+}
+.btn-flush,.btn-preview:hover{
+    cursor: pointer;
+}
+.left-nav-1-1,.left-nav-2-1,.left-nav-3-1,.left-nav-4-1,.left-nav-5-1,.left-nav-6-1,.left-nav-7-1,.left-nav-8-1{
+     display: inline-block;
+     width: 30px;
+     height: 30px;
+     margin: 10px 5px 0 15px;
+ }
+.left-nav-1-1{
+    background: url("../images/people.png");
+}
+.left-nav-1-1:hover{
+    background: url("../images/people1.png");
+}
+.left-nav-2-1{
+    background: url("../images/radar.png");
+}
+.left-nav-2-1:hover{
+    background: url("../images/radar1.png");
+}
+.left-nav-3-1{
+    background: url("../images/toolkit.png");
+}
+.left-nav-3-1:hover{
+    background: url("../images/toolkit(1).png");
+}
+.left-nav-4-1{
+    background: url("../images/note.png");
+}
+.left-nav-4-1:hover{
+    background: url("../images/note(1).png");
+}
+.left-nav-5-1{
+    background: url("../images/trenchercap.png");
+}
+.left-nav-5-1:hover{
+    background: url("../images/trenchercap1.png");
+}
+.left-nav-6-1{
+    background: url("../images/house.png");
+}
+.left-nav-6-1:hover{
+    background: url("../images/house(1).png");
+}
+.left-nav-7-1{
+    background: url("../images/Accreditationbadges1.png");
+}
+.left-nav-7-1:hover{
+    background: url("../images/Accreditationbadges.png");
+}
+.left-nav-8-1{
+    background: url("../images/note(2).png");
+}
+.left-nav-8-1:hover{
+    background: url("../images/note (3).png");
+}
+
+.left-nav-1-2,.left-nav-2-2,.left-nav-3-2,.left-nav-4-2,.left-nav-5-2,.left-nav-6-2,.left-nav-7-2,.left-nav-8-2{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    margin-left:55px;
+    background: url("../images/check.png");
+}
+.left-nav-1-2:hover{
+    background: url("../images/check(1).png");
+}
+.left-nav-2-2:hover{
+    background: url("../images/check(1).png");
+}
+.left-nav-3-2:hover{
+    background: url("../images/check(1).png");
+}
+.left-nav-4-2:hover{
+    background: url("../images/check(1).png");
+}
+.left-nav-5-2:hover{
+    background: url("../images/check(1).png");
+}
+.left-nav-6-2:hover{
+    background: url("../images/check(1).png");
+}
+.left-nav-7-2:hover{
+     background: url("../images/check(1).png");
+ }
+.left-nav-8-2:hover{
+    background: url("../images/check(1).png");
+}
+
+
+
+
+
+
+
+
+.left-nav-body{
+    width: 100%;
+    height: 408px;
+    border:none;
+    border-left: 1px solid #e4eaee;
+    border-right: 1px solid #e4eaee;
+}
+.left-nav-body div:hover{
+    cursor: pointer;
+    color: #ff6000;
+}
+.left-nav-body div{
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    border-bottom: 1px solid #e4eaee ;
+}
+
+
+
+
+
+.main-body{
+    float: right;
+    width: 778px;
+    /*height: 1200px;*/
+    /*background-color: #bce8f1;*/
+
+}
+.main-body>div{
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+
+
+
+
+.main-body-info{
+    height: 138px ;
+    position: relative;
+}
+.body-info:hover{
+    border: 1px solid  #ff6000 ;
+}
+.info-datil{
+    width: 100%;
+    height: 80px;
+    background:#eee;
+    font-size: 14px;
+    display: none;
+}
+.info-more:hover{
+    cursor: pointer;
+}
+
+.datil-marry,.datil-outlook,.datil-place,.datil-id{
+    display: inline-block;
+    width:350px;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 0 0 15px;
+}
+
+
+
+
+.main-body-info img{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.name{
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    font-size: 24px;
+    /*margin-bottom: 18px;*/
+    padding: 15px 15px 0px 115px;
+}
+.at{
+    position: relative;
+    padding: 15px 15px 15px 115px;
+    line-height: 20px;
+    font-size: 14px;
+}
+.info-email{
+    display: inline-block;
+    margin-left: 90px;
+    width: 190px;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 25px;
+}
+
+.info-telno{
+    display: inline-block;
+    margin-left: 120px;
+    width: 180px;
+    height: 20px;
+}
+.info-more{
+    display: inline-block;
+    margin-left: 60px;
+    width: 100px;
+    height: 20px;
+    font-size: 12px;
+    color: #5663ff;
+}
+.update-info{
+    display: block;
+    /*display: inline-block ;*/
+    position: relative;
+    top: -28px;
+    left: 708px;
+    width: 20px;
+    height: 20px;
+    background: url("../images/modifieddata.png") no-repeat;
+}
+.update-info:hover{
+    cursor: pointer;
+    background: url("../images/modifieddata(1).png") no-repeat;
+}
+
+
+.update-body-info{
+    display: none;
+    width: 778px;
+    height: 281px;
+    border: 1px solid  #ff6000 ;
+    position: relative;
+}
+.update-body-info img{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.update-body-info-datil{
+    display: inline-block;
+    width: 648px;
+    height: 150px;
+    position: relative;
+    top: 15px;
+    left: 115px;
+}
+.update-body-info-datil lable{
+    display: inline-block;
+    height: 28px;
+    position: relative;
+}
+.lable-gender{
+    margin-left: 197px;
+}
+.lable-year{
+    margin-left: 155px;
+}
+.lable-status{
+    margin-left: 165px;
+}
+.lable-addr{
+    margin-left: 180px;
+}
+.update-body-info-btn{
+
+    width: 648px;
+    height: 50px;
+    position: relative;
+    top: 15px;
+    left: 115px;
+    text-align: center;
+    line-height: 50px;
+}
+.update-body-info-btn button{
+    width: 80px;
+    height: 28px;
+    background-color: #ff6000;
+    border: 1px solid  #ff6000 ;
+    border-radius: 2px;
+    margin: 0 10px;
+}
+.update-body-info-btn button:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.update-salary{
+    display: block;
+    /*display: inline-block ;*/
+    position: relative;
+    top: -40px;
+    left: 708px;
+    width: 20px;
+    height: 20px;
+    background: url("../images/modifieddata.png") no-repeat;
+}
+
+.update-salary:hover{
+    cursor: pointer;
+    background: url("../images/modifieddata(1).png") no-repeat;
+}
+
+.update-intention{
+    display: block;
+    /*display: inline-block ;*/
+    position: relative;
+    top: 10px;
+    left: 708px;
+    width: 20px;
+    height: 20px;
+    background: url("../images/modifieddata.png") no-repeat;
+}
+.update-intention:hover{
+    cursor: pointer;
+    background: url("../images/modifieddata(1).png") no-repeat;
+}
+
+
+
+
+
+
+.main-body-salary{
+    position: relative;
+    height: 58px;
+    line-height: 58px;
+}
+.main-body-salary lable{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff6000;
+}
+.main-body-intention lable{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff6000;
+}
+.salary-update{
+    display: none;
+    width: 778px;
+    height: 125px;
+    border: 1px solid  #ff6000 ;
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+}
+.salary-update input{
+    height: 20px;
+    width: 178px;
+}
+.salary-update button{
+    width: 80px;
+    height: 28px;
+    background-color: #ff6000;
+    border: 1px solid  #ff6000 ;
+    border-radius: 2px;
+    margin: 0 10px;
+}
+.salary-update button:hover{
+    cursor: pointer;
+}
+
+
+
+.main-body-salary:hover{
+    border: 1px solid  #ff6000 ;
+}
+
+
+.main-body-intention{
+    position: relative;
+    height: 138px;
+}
+.main-body-intention:hover{
+    border: 1px solid  #ff6000 ;
+}
+.main-body-intention p{
+    display: inline-block;
+    width: 350px;
+    height: 28px;
+}
+.intention-datil{
+    display: none;
+    width: 100%;
+    height: 400px;
+    border: 1px solid  #ff6000 ;
+    text-align: left;
+    line-height: 60px;
+}
+.intention-datil input{
+    width: 120px;
+    height: 30px;
+    border: 1px solid  #ff6000 ;
+}
+.intention-datil select{
+    width: 50px;
+    height: 32px;
+    border: 1px solid  #ff6000 ;
+}
+.intention-datil button{
+    margin-left: 150px;
+    width: 80px;
+    height: 30px;
+    border: 1px solid  #ff6000 ;
+    background-color: #ff6000;
+    border-radius: 2px;
+}
+.intention-datil button:hover{
+    cursor: pointer;
+}
+.error-tip{
+    color: red;
+    display: none;
+}
+
+
+
+.main-body-experience{
+    /*height: 118px;*/
+}
+.main-body-experience lable{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff6000;
+}
+.add-experience-btn{
+    display: block;
+    /*display: inline-block ;*/
+    position: relative;
+    top: 10px;
+    left: 658px;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #00457d;
+}
+.add-experience-btn:hover{
+    color: #ff6000;
+    cursor: pointer;
+}
+.experience-null{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #b0b0b0;
+    font-size: 14px;
+}
+.main-body-experience p{
+    display: inline-block;
+    width: 350px;
+    height: 28px;
+}
+.add-experience{
+    display: none;
+    width: 100%;
+    height: 400px;
+    border: 1px solid  #ff6000 ;
+    text-align: center;
+    line-height: 35px;
+}
+.add-experience input{
+    height: 25px;
+}
+.add-experience button{
+    width: 80px;
+    height: 30px;
+    border: 1px solid  #ff6000 ;
+    background-color: #ff6000;
+    border-radius: 2px;
+}
+.add-experience button:hover{
+    cursor: pointer;
+}
+.error-tip-experience{
+    display: none;
+    color: red;
+    font-size: 12px;
+}
+.delete-experience{
+    /*margin-top:30px;*/
+    display: inline-block;
+    float: right;
+    width: 30px;
+    height:30px;
+    background-color: #ff6000;
+    border-radius: 50%;
+    border: none;
+}
+.delete-experience:hover{
+    cursor: pointer;
+}
+.experience-datail:hover{
+    border: 1px solid  #ff6000 ;
+}
+.experience-datail{
+    width: 100%;
+    height: 108px;
+    border-bottom: 1px dashed #b0b0b0;
+}
+
+
+
+
+.main-body-project lable{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff6000;
+}
+.add-project-btn{
+    display: block;
+    /*display: inline-block ;*/
+    position: relative;
+    top: 10px;
+    left: 658px;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #00457d;
+}
+.add-project-btn:hover{
+    color: #ff6000;
+    cursor: pointer;
+}
+.project-null{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #b0b0b0;
+    font-size: 14px;
+}
+.main-body-project p{
+    display: inline-block;
+    width: 350px;
+    height: 28px;
+}
+.add-project{
+    display: none;
+    width: 100%;
+    height: 400px;
+    border: 1px solid  #ff6000 ;
+    text-align: center;
+    line-height: 35px;
+}
+.add-project input{
+    width: 225px;
+    height: 25px;
+}
+.add-project button{
+    width: 80px;
+    height: 30px;
+    border: 1px solid  #ff6000 ;
+    background-color: #ff6000;
+    border-radius: 2px;
+}
+.add-project button:hover{
+    cursor: pointer;
+}
+.error-tip-project{
+    display: none;
+    color: red;
+    font-size: 12px;
+}
+.delete-project{
+    display: inline-block;
+    float: right;
+    width: 30px;
+    height:30px;
+    background-color: #ff6000;
+    border-radius: 50%;
+    border: none;
+}
+.delete-project:hover{
+    cursor: pointer;
+}
+.project-datail:hover{
+    border: 1px solid  #ff6000 ;
+}
+.project-datail{
+    width: 100%;
+    height: 108px;
+    border-bottom: 1px dashed #b0b0b0;
+}
+
+
+
+
+.main-body-edu{
+    /*height: 118px;*/
+}
+
+.main-body-edu lable{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff6000;
+}
+.add-edu-btn{
+    display: block;
+    /*display: inline-block ;*/
+    position: relative;
+    top: 10px;
+    left: 658px;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #00457d;
+}
+.add-edu-btn:hover{
+    color: #ff6000;
+    cursor: pointer;
+}
+.edu-null{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #b0b0b0;
+    font-size: 14px;
+}
+.main-body-edu p{
+    display: inline-block;
+    width: 350px;
+    height: 28px;
+}
+.add-edu{
+    display: none;
+    width: 100%;
+    height: 400px;
+    border: 1px solid  #ff6000 ;
+    text-align: center;
+    line-height: 35px;
+}
+.add-edu input{
+    width: 225px;
+    height: 25px;
+}
+.add-edu button{
+    width: 80px;
+    height: 30px;
+    border: 1px solid  #ff6000 ;
+    background-color: #ff6000;
+    border-radius: 2px;
+}
+.add-edu button:hover{
+    cursor: pointer;
+}
+.error-tip-edu{
+    display: none;
+    color: red;
+    font-size: 12px;
+}
+.delete-edu{
+    display: inline-block;
+    float: right;
+    width: 30px;
+    height:30px;
+    background-color: #ff6000;
+    border-radius: 50%;
+    border: none;
+}
+.delete-edu:hover{
+    cursor: pointer;
+}
+.edu-datail:hover{
+    border: 1px solid  #ff6000 ;
+}
+.edu-datail{
+    width: 100%;
+    height: 108px;
+    border-bottom: 1px dashed #b0b0b0;
+}
+
+
+
+
+.main-body-honor{
+    /*height: 258px;*/
+}
+
+.main-body-honor lable{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff6000;
+}
+.add-honor-btn{
+    display: block;
+    /*display: inline-block ;*/
+    position: relative;
+    top: 10px;
+    left: 658px;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #00457d;
+}
+.add-honor-btn:hover{
+    color: #ff6000;
+    cursor: pointer;
+}
+.honor-null{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #b0b0b0;
+    font-size: 14px;
+}
+.main-body-honor p{
+    display: inline-block;
+    width: 350px;
+    height: 28px;
+}
+.add-honor{
+    display: none;
+    width: 100%;
+    height: 200px;
+    border: 1px solid  #ff6000 ;
+    text-align: center;
+    line-height: 35px;
+}
+.add-honor input{
+    width: 225px;
+    height: 25px;
+}
+.add-honor button{
+    width: 80px;
+    height: 30px;
+    border: 1px solid  #ff6000 ;
+    background-color: #ff6000;
+    border-radius: 2px;
+}
+.add-honor button:hover{
+    cursor: pointer;
+}
+.error-tip-honor{
+    display: none;
+    color: red;
+    font-size: 12px;
+}
+.delete-honor{
+    display: inline-block;
+    float: right;
+    width: 30px;
+    height:30px;
+    background-color: #ff6000;
+    border-radius: 50%;
+    border: none;
+}
+.delete-honor:hover{
+    cursor: pointer;
+}
+.honor-datail:hover{
+    border: 1px solid  #ff6000 ;
+}
+.honor-datail{
+    width: 100%;
+    height: 108px;
+    border-bottom: 1px dashed #b0b0b0;
+}
+
+
+
+
+
+.main-body-skills{
+    /*height: 358px;*/
+}
+.main-body-skills lable{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff6000;
+}
+.add-skills-btn{
+    display: block;
+    /*display: inline-block ;*/
+    position: relative;
+    top: 10px;
+    left: 658px;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #00457d;
+}
+.add-skills-btn:hover{
+    color: #ff6000;
+    cursor: pointer;
+}
+.skills-null{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #b0b0b0;
+    font-size: 14px;
+}
+.main-body-skills p{
+    display: inline-block;
+    width: 350px;
+    height: 28px;
+}
+.add-skills{
+    display: none;
+    width: 100%;
+    height: 200px;
+    border: 1px solid  #ff6000 ;
+    text-align: center;
+    line-height: 35px;
+}
+.add-skills input{
+    width: 225px;
+    height: 25px;
+}
+.add-skills button{
+    width: 80px;
+    height: 30px;
+    border: 1px solid  #ff6000 ;
+    background-color: #ff6000;
+    border-radius: 2px;
+}
+.add-skills button:hover{
+    cursor: pointer;
+}
+.error-tip-skills{
+    display: none;
+    color: red;
+    font-size: 12px;
+}
+.delete-skills{
+    display: inline-block;
+    float: right;
+    width: 30px;
+    height:30px;
+    background-color: #ff6000;
+    border-radius: 50%;
+    border: none;
+}
+.delete-skills:hover{
+    cursor: pointer;
+}
+.skills-datail:hover{
+    border: 1px solid  #ff6000 ;
+}
+.skills-datail{
+    width: 100%;
+    height: 68px;
+    border-bottom: 1px dashed #b0b0b0;
+}
+
+
+
+
+.main-body-other{
+    /*height: 258px;*/
+}
+.main-body-other lable{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff6000;
+}
+.add-other-btn{
+    display: block;
+    /*display: inline-block ;*/
+    position: relative;
+    top: 10px;
+    left: 658px;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #00457d;
+}
+.add-other-btn:hover{
+    color: #ff6000;
+    cursor: pointer;
+}
+.other-null{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #b0b0b0;
+    font-size: 14px;
+}
+

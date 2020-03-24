@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*===============头================*/
+.register-head {
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid darkgray;
+}
+
+.register-head > a > img {
+    display: inline-block;
+    width: 90px;
+    height: 40px;
+    margin: 10px 0px 0 180px;
+
+}
+
+.register-head > img {
+    display: inline-block;
+    width: 160px;
+    height: 17px;
+    position: relative;
+    top: -10px;
+}
+
+.title1 {
+    display: inline-block;
+    width: 1px;
+    height: 20px;
+    position: relative;
+    top: -10px;
+    left: 5px;
+    color: darkgray;
+}
+
+.title {
+    display: inline-block;
+    width: 88px;
+    height: 20px;
+    position: relative;
+    top: -10px;
+    left: 10px;
+    font-size: 22px;
+}
+
+.link-home {
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 220px;
+}
+
+.home {
+    text-decoration: none;
+    position: relative;
+    right: 20px;
+    color: #333;
+}
+
+.help {
+    text-decoration: none;
+    color: #333;
+}
+
+.home:hover, .help:hover {
+    color: red;
+}
+/*=================登录框=========================*/
+.lbox {
+    width: 760px;
+    height: 740px;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    margin: 60px auto;
+
+}
+
+.register-kind {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 20px;
+}
+
+.new-kind  {
+    width: 116px;
+    line-height: 60px;
+    height: 60px;
+    font-size: 24px;
+    color: black;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.now-kind{
+    display: inline-block;
+    width: 140px;
+    line-height: 40px;
+    height: 40px;
+    font-size: 24px;
+    color: #ff6000;
+    margin-left: 220px;
+    margin-top: 20px;
+    border-right: 2px solid darkgray;
+}
+
+
+
+.register-bypw {
+    display: block;
+    margin-top: -5px;
+    list-style: none;
+    float: left;
+    margin-left: 30px;;
+}
+
+.register-bytel{
+    display: none;
+    margin-top: -5px;
+    list-style: none;
+    float: left;
+    margin-left: 30px;;
+}
+li {
+    font-size: 15px;
+    color: #888;
+    padding-top: 25px;
+    text-decoration: none;
+}
+
+li lable {
+    display: inline-block;
+    width: 120px;
+    color: #000;
+    font-size: 20px;
+}
+.email-code,.tel-code, .pw-code, .confirm-pw-code {
+    width: 440px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    outline: none;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+}
+
+.sms-code, .img-code {
+    width: 320px;
+    height: 40px;
+    margin-left: 10px;
+    outline: none;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+}
+input[type=checkbox] {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    background-color: white;
+}
+.sms-btn {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    border: 1px solid #ffb865;
+    color: #ff6000;
+    background-color: #fff2e3;
+    text-align: center;
+!important;
+}
+
+
+
+.tiaokuan-check {
+    width: 440px;
+    height: 40px;
+    float: left;
+    position: relative;
+    left: 190px;
+    margin-top: 15px;
+}
+
+.tiaokuan-check > a {
+    margin-left: 240px;
+    text-decoration: none;
+}
+
+.tiaokuan-check > a:hover {
+    color: red;
+}
+.register-btn {
+    display: inline-block;
+    width: 445px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    background-color: #ea5800;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 190px;
+    opacity: 0.8;
+}
+
+.have-id {
+    width: 220px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 430px;
+    margin-top: 20px;
+}
+
+.have-id > a {
+    text-decoration: none;
+    color: #ea5800;
+}
+.have-id > a:hover{
+    color: red;
+}

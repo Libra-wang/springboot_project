@@ -1,0 +1,586 @@
+body,ul,li,p,form,html{
+    margin: 0;
+    padding: 0;
+}
+/*a{*/
+    /*text-decoration: none;*/
+/*}*/
+body {
+    display: block;
+}
+
+div {
+    display: block;
+}
+/*
+****************************
+*************************8**
+*****************************
+          页面头部
+*****************************
+***************************8
+*****************************/
+
+/*
+=================================
+    最顶部橙色部分
+=================================
+*/
+.header {
+    position: relative;
+    width: 100%;
+    font: 14px "Microsoft YaHei";
+}
+
+.header .bar {
+    width: 100%;
+    height: 32px;
+    font-size: 14px;
+    background-color: #ff6000 ;
+}
+
+.header .bar .language {
+    display: inline-block;
+    float: left;
+    width: 48px;
+    height: 32px;
+    margin-left: 225px;
+}
+
+.header .language #languageList {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 48px;
+    height: 32px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.header .language li.nowLanguage_li {
+    color: #fff;
+    text-indent: 9px;
+    margin-top: 6px;
+    list-style: none;
+}
+
+.header #languageList .nowLanguage_span {
+    cursor: pointer;
+}
+
+.bar .app_download_div {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 65px;
+}
+
+.bar .app_download_div img{
+
+}
+
+.bar .app_download_div .App_download_span {
+    color: #fff;
+}
+
+.header .bar .top_header_other_div {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 350px;
+}
+
+.header .top_header_other_div .top_header_other_a {
+    text-decoration: none;
+    margin-left: 35px;
+    color: #fff;
+}
+
+.header_login_and_regist_div {
+    width: 142px;
+    height: 32px;
+    /*margin-top: 6px;*/
+    display: inline-block;
+    text-align: center;
+    background-color: #ffa000;
+    margin-left: 10px;
+    position: absolute;
+}
+.header_re_lo {
+    margin-top: 6px;
+    display: inline-block;
+}
+
+.header_login_and_regist_div .header_login_and_regist_a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header_login_and_regist_a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+/*
+=================================
+    顶部导航栏部分
+=================================
+*/
+
+.nag {
+    height: 56px;
+    background-color: white;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.nag .nag_logo_a {
+    display: inline-block;
+    margin-left: 225px;
+    text-decoration: none;
+    position: absolute;
+}
+
+.nag .slogen {
+    /*float: left;*/
+    display: inline-block;
+    margin: 14px 0 0 325px;
+}
+
+.nag .nlink {
+    /*float: right;*/
+    display: inline-block;
+}
+
+.nag .nlink a{
+    text-decoration: none;
+}
+
+.nag .nag_index_a {
+    color: #333333;
+    float: left;
+    height: 56px;
+    font-size: 16px;
+    margin-left: 240px;
+}
+.nag_index_a:hover {
+    color: #ff6000;
+}
+
+.nag .nag_label_a {
+    color: #333333;
+    margin-left: 47px;
+}
+.nag .nag_label_a:hover {
+    color: #ff6000;
+}
+
+/*
+****************************
+*************************8**
+*****************************
+ <!--关键字，城市搜索等div-->
+*****************************
+***************************8
+*****************************/
+
+.search_main_div {
+    width: 1075px;
+    height: 135px;
+    background-color: #595c66;
+    margin-left: 225px;
+    position: absolute;
+}
+
+.search_body_div {
+    /*float: left;*/
+    position: absolute;
+    width: 1035px;
+    height: 86px;
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.search_com_job_div {
+    display: inline-block;
+    width: 330px;
+    height: 84px;
+   /* border-right: 1px solid #e8e8e8;*/
+    position: absolute;
+    /*background-color: #ff6000;*/
+}
+
+.search_allFile_div {
+    display: inline-block;
+    font-size: 16px;
+    color: #636985;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+
+.search_comName_div {
+    display: inline-block;
+    font-size: 12px;
+    color: #999;
+    margin-left: 87px;
+    margin-top: 15px;
+}
+
+.search_main_div .search_ipt {
+    display: block;
+    width: 220px;
+    height: 24px;
+    margin-top: 3px;
+    background:none;
+    outline:none;
+    border:none;
+    margin-left: 12px;
+    /*position: relative;*/
+}
+
+.search_main_div .search_com_place_div {
+    display: inline-block;
+    width: 144px;
+    height: 84px;
+    border-right: 1px solid #e8e8e8;
+    margin-left: 360px;
+    position: absolute;
+}
+
+.search_com_place {
+    height: 32px;
+    line-height: 38px;
+    font-size: 16px;
+    margin-left: 12px;
+    /*text-indent: 15px;*/
+    color: rgb(99, 105, 133);
+}
+
+.choose_com_place {
+    height: 24px;
+    line-height: 24px;
+    margin-left: 12px;
+    color: rgb(51, 51, 51);
+    /*text-indent: 15px;*/
+    padding: 5px 0px;
+    border: none;
+    margin-top: 5px;
+
+}
+
+.search_main_div .search_industry_div {
+    display: inline-block;
+    width: 210px;
+    height: 84px;
+    border-right: 1px solid #e8e8e8;
+    margin-left: 374px;
+    position: absolute;
+}
+
+.search_industry {
+    height: 32px;
+    line-height: 38px;
+    font-size: 16px;
+    margin-left: 12px;
+    /*text-indent: 15px;*/
+    color: rgb(99, 105, 133);
+}
+
+.choose_industry {
+    height: 24px;
+    line-height: 24px;
+    margin-left: 12px;
+    color: rgb(51, 51, 51);
+    /*text-indent: 15px;*/
+    padding: 5px 0px;
+}
+
+.search_main_div .search_functions_div {
+    display: inline-block;
+    width: 210px;
+    height: 84px;
+    /*border-left: 0 solid #e8e8e8;*/
+    margin-left: 584px;
+    position: absolute;
+}
+
+.search_industry {
+    height: 32px;
+    line-height: 38px;
+    font-size: 16px;
+    margin-left: 12px;
+    /*text-indent: 15px;*/
+    color: rgb(99, 105, 133);
+    /*position: absolute;*/
+}
+
+.choose_industry {
+    height: 24px;
+    line-height: 24px;
+    margin-left: 12px;
+    color: rgb(51, 51, 51);
+    /*text-indent: 15px;*/
+    padding: 5px 0px;
+}
+
+.search_main_div .search_btn_div {
+    display: inline-block;
+    width: 210px;
+    line-height: 84px;
+    border: 0 solid #e8e8e8;
+    margin-left: 560px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.search_btn {
+    width: 90px;
+    height: 44px;
+    line-height: 44px;
+    font-weight: bold;
+    font-size: 16px;
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(255, 96, 0);
+    /*margin: 0px 10px;*/
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 96, 0);
+    border-image: initial;
+    border-radius: 2px;
+}
+
+/*
+=================================
+    热门推荐部分
+=================================
+*/
+
+.search_main_div .hot_jobs {
+    width: 1035px;
+    height: 34px;
+    margin-left: 20px;
+}
+
+.hot_jobs div{
+    display: inline-block;
+    position: absolute;
+    height: 34px;
+    line-height: 34px;
+    color: rgb(255, 255, 255);
+    top: 50%;
+    left: 2px;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+.hot_jobs div:hover{
+    color: #ff6000;
+    cursor: pointer;
+}
+
+/*
+****************************
+*************************8**
+*****************************
+ <!--筛选栏-->
+*****************************
+***************************8
+*****************************/
+ body, ul {
+     margin: 0;
+     height: 0;
+ }
+
+.main {
+    width: 1075px;
+    height:290px;
+    border: 1px solid #d5d5d5;
+    margin-left: 225px;
+    margin-top: 135px;
+}
+
+.el {
+    width: 100%;
+    height: 50px;
+    /*background-color: #5dd5c8;*/
+    line-height: 50px;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.el span {
+    font-size: 12px;
+    color: #5c5c5c;
+    margin-left: 20px;
+    float: left;
+}
+
+.el ul {
+    list-style: none;
+}
+
+.el ul li {
+    float: left;
+    margin-left: 40px;
+    font-size: 12px;
+}
+
+.el ul li a {
+    text-decoration: none;
+    color: #5c5c5c;
+}
+
+.el ul li .all {
+    color: #FF6000;
+}
+
+.in {
+    position: relative;
+    width: 100%;
+    height: 50px;
+
+    /*top: 20px;*/
+    line-height: 50px;
+}
+
+.in span {
+    font-size: 12px;
+    color: #5c5c5c;
+    margin-left: 20px;
+}
+
+.in p {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* margin-top: -10px; */
+    /* text-align: center; */
+    margin-left: 120px;
+    font-size: 12px;
+    top: -54px
+}
+
+/*
+****************************
+*************************8**
+*****************************
+<!--职位信息列表导航-->
+*****************************
+***************************8
+*****************************/
+
+.nag_job_list_main_div {
+    width: 1075px ;
+    height: 42px;
+    position: relative;
+    line-height: 42px;
+    background-color: rgb(250, 250, 250);
+    border-top: 1px solid rgb(232, 232, 232);
+    border-bottom: 1px solid rgb(232, 232, 232);
+    margin-left: 225px;
+}
+
+/*
+****************************
+*************************8**
+*****************************
+<!--职位信息列表-->
+*****************************
+***************************8
+*****************************/
+
+/*.job_list_body {*/
+    /*width: 1075px;*/
+    /*margin-left: 225px;*/
+/*}*/
+
+#List{
+    width: 1075px;
+    /*height: 600px;*/
+    margin-left: 160px;
+}
+#job_list_title_div {
+
+    width: 1075px;
+    height: 30px;
+    text-align: center;
+    border-bottom: 1px solid rgb(232, 232, 232);
+}
+
+#job_list_title_div div {
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+    display: inline-block;
+    width: 175px;
+}
+.job_list_title_div {
+    /*margin-left: 225px !important;*/
+    margin-top: 10px;
+    width: 1075px;
+    height: 30px;
+    text-align: center;
+    border-bottom: 1px solid rgb(232, 232, 232);
+}
+
+.job_list_title_div div {
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+    display: inline-block;
+}
+
+.cart_clear {
+    /*float: top;*/
+    margin-top: 20px;
+    width: 1686px;
+    height: 100px;
+}
+
+.clear_button_div {
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 1100px;
+    background-color: rgb(255, 96, 0)
+}
+
+.clear_button_a {
+    font-size: 16px;
+    font-weight: 300;
+    color: white ;
+}
+
+.pagenation{
+    width: 900px;
+    height: 50px;
+    background-color: lightgray;
+    line-height: 50px;
+    margin-top: 30px;
+    text-align: center;
+
+}
+.job_list{
+    display: none;
+}
+/*
+.pagenation .previous_page{
+    display: inline !important;
+}
+
+.pagenation .next_page{
+    display: inline !important;
+}
+*/
+
+
+
+
+
+

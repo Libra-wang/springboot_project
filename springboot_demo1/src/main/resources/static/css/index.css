@@ -1,0 +1,521 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.body-head {
+    width: 100%;
+    height: 305px;
+    background: url("../images/head1.jpg");
+}
+
+
+/*==============顶部=================*/
+.topindex {
+    width: 100%;
+    height: 60px;
+    background: url(../images/bg_top.png) repeat-x;
+}
+
+.topindex > img {
+    display: inline-block;
+    width: 160px;
+    height: 17px;
+    position: relative;
+    top: -10px;
+}
+
+.topindex > a > img {
+    display: inline-block;
+    width: 90px;
+    height: 40px;
+    margin: 10px 0px 0 180px;
+}
+
+.nlink {
+    height: 30px;
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 180px;
+}
+
+.nlink > a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-left: 40px;
+}
+
+.nlink > a:hover {
+    color: #ff872c;
+}
+
+.login_status{
+    display: inline-block;width: 220px;
+    margin-left: 40px;
+}
+
+.login_btns a ,.user_btns a{
+    font-size: 16px;
+    font-weight: bolder;
+    color: #ff872c;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.login_btns a:hover{
+    color: white;
+}
+.user_btns a:hover{
+    color: white;
+}
+.on {
+    height: 30px;
+    font-weight: bold;
+    border-bottom: 4px solid white;
+}
+
+.on:hover {
+    color: #ff872c;
+    border-bottom: 4px solid #ff872c;
+}
+
+/*==================搜索====================*/
+.search {
+    width: 1000px;
+    height: 150px;
+    background: url(../images/bg_top.png);
+    margin: 95px auto;
+}
+
+.btn-search {
+
+    width: 100%;
+    height: 35px;
+    position: relative;
+    top: 35px;
+    left: 80px;
+}
+
+.sbtn1 {
+    background-color: white;
+    width: 75px;
+    height: 35px;
+    line-height: 35px;
+    border-right: 1px solid darkgray;
+    cursor: pointer;
+}
+
+.sbtn2 {
+    display: none;
+    background-color: white;
+    width: 75px;
+    height: 35px;
+    line-height: 35px;
+    position: relative;
+    top: 20px;
+    left: 80px;
+    float: left;
+
+}
+
+.sbtn1 > span {
+    margin-left: 15px;
+
+}
+
+.sbtn2 > span {
+    margin-left: 15px;
+}
+
+input[type=text] {
+    width: 465px;
+    height: 33px;
+    position: relative;
+    top: -35px;
+    left: 76px;
+    border: none;
+    outline: none;
+}
+
+.area {
+    background-color: white;
+    width: 105px;
+    height: 35px;
+    position: relative;
+    top: -70px;
+    left: 540px;
+    line-height: 35px;
+}
+
+input[type=button] {
+    background-color: white;
+    width: 75px;
+    height: 35px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    color: darkgray;
+    cursor: pointer;
+    border-left: 1px solid darkgray;
+}
+
+.sbtn {
+    width: 120px;
+    height: 37px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #ff6000;
+    border: 0 none;
+    position: relative;
+    top: -108px;
+    left: 645px;
+}
+
+.gj-search {
+    display: inline-block;
+    width: 48px;
+    height: 30px;
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    top: -102px;
+    left: 665px;
+    color: white;
+}
+
+.gj-search:hover {
+    color: #ff6000;
+}
+
+.ht {
+
+    width: 744px;
+    height: 25px;
+    line-height: 25px;
+    position: relative;
+    top: 50px;
+    left: 80px;
+}
+
+.ht > span {
+    font-size: 15px;
+    color: white;
+}
+
+.ht > a {
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+}
+
+.ht > a:hover {
+    color: #ff6000;
+}
+
+.cresume {
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    font-weight: bold;
+    margin: -10px auto 0;
+    background-color: #fff2e3;
+}
+
+.cresume > a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ff6000;
+    position: relative;
+    left: 40%;
+}
+
+.cresume:hover {
+    background-color: #ffddb4;
+}
+
+.hcity {
+    width: 1000px;
+    height: 45px;
+    background-color: white;
+    margin: 0 auto;
+    line-height: 45px;
+}
+
+.hcity > span {
+    display: inline-block;
+    font-size: 16px;
+    color: #ff6000;
+    font-weight: bold;
+    margin-left: 20px;
+    float: left;
+}
+
+.li {
+
+    width: 820px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+.li > a {
+    text-decoration: none;
+    float: left;
+    font-size: 14px;
+    color: #333;
+    margin-right: 10px;
+}
+
+.hcity > a {
+    text-decoration: none;
+}
+
+.hcity > a:hover {
+    color: #ff6000;
+}
+
+.hcbox {
+    display: none;
+    width: 1000px;
+    height: 90px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.hcbox > span {
+    display: inline-block;
+    font-size: 16px;
+    color: #ff6000;
+    margin-left: 20px;
+
+}
+
+.hcbox > ul {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding-left: 0;
+    position: relative;
+    top: 5px;
+
+}
+
+.on2 {
+    margin-left: 20px;
+    color: #ff6000 !important;;
+    background-color: #fff2e3;
+    border-color: #ff6000 !important;;
+
+}
+
+.hcbox li {
+    float: left;
+    width: 70px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 16px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+}
+
+.hcbox > ul > li:hover {
+    color: #ff6000;
+    background-color: #fff2e3;
+    border-color: #ff6000;
+}
+
+.clst {
+
+    width: 1000px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.e {
+    display: none;
+    width: 1000px;
+    height: 30px;
+}
+
+.e > a {
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+    margin-right: 10px;
+
+}
+
+div[name=abc] {
+    display: inline-block;
+}
+
+.hlist {
+    background-color: white;
+    float: left;
+    width: 772px;
+    height: 208px;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+.hlist-e {
+    float: left;
+    width: 174px;
+    height: 158px;
+    font-size: 14px;
+    padding: 0 9px;
+    margin-top: 20px;
+    border-left: 1px solid #ddd;
+}
+
+.hlist a {
+    display: inline-block;
+    text-decoration: none;
+    color: darkgray;
+    margin-top: 10px;
+}
+
+.hlist a:hover {
+    color: #ff6000;
+}
+
+.atitle {
+    color: #333 !important;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
+}
+.hserver{
+    background-color: white;
+    float: left;
+    width: 184px;
+    height: 208px;
+  margin-left: 10px;
+    margin-top: 10px;
+}
+.tie{
+    display: block;
+    text-decoration: none;
+    line-height: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #427fed;
+    margin-left: 10px;
+    margin-bottom: 9px;
+    border-bottom: 1px solid #ddd;
+}
+.hlst{
+
+    height: 110px;
+}
+.hlst a{
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+}
+.hlst a:hover{
+    color: #ff6000;
+}
+.hlst span{
+    float: left;
+    width: 50%;
+    line-height: 33px;
+    text-align: center;
+}
+.cln{
+    text-decoration: none;
+    display: block;
+    width: 140px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #427fed;
+    border-radius: 2px;
+}
+ .cln:hover {
+    color: #fff;
+    background-color: #266be7;
+}
+ .gg{
+     width: 1000px;
+     height: 200px;
+     background-color: pink;
+     position: relative;
+     top: 240px;
+     left: 310px;
+     padding-right: 10px;
+ }
+ .ggli{
+     float: left;
+     width:300px ;
+     height: 200px;
+     background-color: #427fed;
+     margin: 20px;
+ }
+
+ .new_jobs{
+
+     float: left;
+     width: 890px;
+
+     margin-left: 180px;
+     margin-top: 10px
+ }
+
+.new_jobs ul{
+    list-style: none;
+}
+.new_jobs ul>li{
+    display: inline-block;
+    width: 300px;
+    height: 80px;
+ /*   background-color: darkorange;*/
+
+    margin-right: 120px;
+    line-height: 80px;
+    border-bottom: 1px solid lightgray;
+}
+.new_jobs ul>li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #464646;
+}
+
+.new_jobs ul>li a:hover{
+    color: #ff6000;
+}
+
+.new_jobs ul>li .jobName{
+    margin-right: 30px;
+    display: inline-block;
+    width: 150px;
+}
+
+.new_jobs ul>li .jobSalary{
+    color: #ff6000;
+}
+
+.new_jobs h2{
+    margin-top: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 18px;
+    font-weight: 200;
+    color: #ff6000;
+}
+
